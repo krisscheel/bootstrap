@@ -15,35 +15,60 @@
     <header>
       <!-- 
         Include a navbar that expands to the full menu at the md breakpoint. 
-      
+        
         The navbar must be using the correct container class that sets the max-width at each breakpoint to be consistent with the rest of the page.
 
         Adjust the nav to be using the dark color theme instead of default in snippet. -->
+
+        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Company Branding</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link 1</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link 2</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link 3</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+
     </header>
 
     <main>
       <section id="hero">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div> 
+        <div class="container"> 
           <!-- Use flexbox classes to set hero text in the center of the image -->
-          <div>
+          <div class="d-flex justify-content-center">
             <!-- Change text to white and center align text -->
-            <div>
+            <div class="text-white d-flex justify-content-center align-items-center">
               <!-- Use a display class for font for the h1 -->
-              <h1>Main heading for page</h1>
+              <h1 class="display-1">Main heading for page</h1>
               <!-- Use an appropriate class that styles the following text as lead text -->
-              <p>Some lead text or subtitle</p>
+              <p class="lead">Some lead text or subtitle</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Add padding to the top and bottom of the section -->
-      <section id="intro">
+      <section class="p-4" id="intro">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Section heading</h2>
+          <h2 class="mb-4">Section heading</h2>
           <!-- Using the grid system, adjust the following so that the text is 100% until the large breakpoint when it will then span 10 columns -->
           <div>
             <div>
@@ -59,7 +84,7 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Section heading</h2>
+          <h2 class="mb-4">Section heading</h2>
           <!-- Using the grid system, adjust the following so that the text in both divs are 100% until the small breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands -->
           <div>
             <div>
@@ -77,7 +102,7 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Section heading</h2>
+          <h2 class="mb-4">Section heading</h2>
 
           <!-- Using the grid system, adjust the following so that the cards are 100% until the small breakpoint where it then divides to use 6 columns each, then again at the large breakpoint each card will span 3 columns each -->
           <!-- Add a gutter y using the value 4 -->
@@ -110,7 +135,7 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Some heading</h2>
+          <h2 class="mb-4">Some heading</h2>
           <!-- Using the grid system, adjust the first image and text are 100% until the large breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands. -->
           <div>
             <div>
@@ -142,7 +167,7 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Pick any Bootstrap component and explore</h2>
+          <h2 class="mb-4">Pick any Bootstrap component and explore</h2>
           <p>Within the available space, choose any component from Bootstrap and showcase it here. It can be as simple or complicated as you like but must stay within the div below.</p>
           <div>
             <!-- Place component here.  -->
