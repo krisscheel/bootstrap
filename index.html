@@ -46,7 +46,7 @@
           <!-- Use flexbox classes to set hero text in the center of the image -->
           <div class="d-flex justify-content-center">
             <!-- Change text to white and center align text -->
-            <div class="text-white d-flex justify-content-center align-items-center">
+            <div class="text-white text-center">
               <!-- Use a display class for font for the h1 -->
               <h1 class="display-1">Main heading for page</h1>
               <!-- Use an appropriate class that styles the following text as lead text -->
@@ -57,14 +57,14 @@
       </section>
 
       <!-- Add padding to the top and bottom of the section -->
-      <section class="p-4" id="intro">
+      <section class="py-4" id="intro">
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
           <h2 class="mb-4">Section heading</h2>
           <!-- Using the grid system, adjust the following so that the text is 100% until the large breakpoint when it will then span 10 columns -->
-          <div>
-            <div>
+          <div class="container row">
+            <div class="col col-lg-10">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
           </div>
@@ -73,17 +73,17 @@
 
       <!-- Add padding to the top and bottom of the section -->
       <!-- Set section background color to use the dark theme with light text -->
-      <section id="two-column-section">
+      <section id="two-column-section" class="py-4" data-bs-theme="dark">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
           <h2 class="mb-4">Section heading</h2>
           <!-- Using the grid system, adjust the following so that the text in both divs are 100% until the small breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands -->
-          <div>
-            <div>
+          <div class="container row">
+            <div class="col-sm-6">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
-            <div>
+            <div class="col-sm-6">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
           </div>
@@ -91,9 +91,9 @@
       </section>
 
       <!-- Add padding to the top and bottom of the section -->
-      <section id="cards">
+      <section id="cards py-4">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
           <h2 class="mb-4">Section heading</h2>
 
@@ -124,9 +124,9 @@
 
       <!-- Add padding to the top and bottom of the section -->
       <!-- Set section background color to use the dark theme with light text -->
-      <section>
+      <section class="bg-dark" data-bs-theme="dark">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
           <h2 class="mb-4">Some heading</h2>
           <!-- Using the grid system, adjust the first image and text are 100% until the large breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands. -->
@@ -156,9 +156,9 @@
       </section>  
       
       <!-- Add padding to the top and bottom of the section -->
-      <section>
+      <section class="py-4">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
           <h2 class="mb-4">Pick any Bootstrap component and explore</h2>
           <p>Within the available space, choose any component from Bootstrap and showcase it here. It can be as simple or complicated as you like but must stay within the div below.</p>
@@ -170,7 +170,7 @@
     </main>
 
     <!-- Set background color to use the dark theme with light text -->
-    <footer>
+    <footer class="bg-dark" data-bs-theme="dark">
       <!-- Use a container class that will set a max-width at each breakpoint -->
       <!-- Center align text -->
       <!-- Add padding to the top and bottom using value 3 -->
