@@ -20,26 +20,19 @@
 
         Adjust the nav to be using the dark color theme instead of default in snippet. -->
 
-        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark" data-bs-theme="dark">
-          <div class="container-fluid">
+        <nav class="navbar bg-dark navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
+          <div class="container">
             <a class="navbar-brand" href="#">Company Branding</a>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link 1</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link 2</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link 3</a>
-                </li>
-
-              </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Link 1</a>
+                <a class="nav-link" href="#">Link 2</a>
+                <a class="nav-link" href="#">Link 3</a>
+              </div>
             </div>
           </div>
         </nav>
